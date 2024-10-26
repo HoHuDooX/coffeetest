@@ -108,6 +108,7 @@ body {
   color: #d9d1ff;
   font-size: 22px;
   transition: all 0.5s ease-in;
+  cursor: pointer;
 }
 
 /* Profile Content */
@@ -161,6 +162,7 @@ body {
   text-align: center;
   transition: all 0.4s ease;
   background: linear-gradient(to right, #c7b7c07a, #433f10);
+  cursor: pointer;
 }
 
 .home_content {
@@ -234,6 +236,7 @@ body {
 }
 .sidebar.active .profile #log_out {
   left: 88%;
+  cursor: pointer;
 }
 .sidebar.active ~ .home_content {
   width: calc(100% - 240px);
@@ -241,7 +244,7 @@ body {
 }
 
 .sidebar.active .profile_content .profile {
-  background: linear-gradient(to right, #9869127a, #969664);
+  background: linear-gradient(to right, #c7b7c07a, #433f10);
 }
 .sidebar.active .profile #log_out {
   background: none;
